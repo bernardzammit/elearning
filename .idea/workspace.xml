@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2873ff05-2ca7-44e1-ab47-54de1d1a7640" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/elearning-styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/english_thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/malti_thumbnail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/maths_thumbnail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/religion_thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/science_thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/socialStudies_thumbnail.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="$PROJECT_DIR$/pages/index.html" />
     </list>
     <ignored path="elearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -302,7 +306,7 @@
       <updated>1460631147853</updated>
       <workItem from="1460656108173" duration="9357000" />
       <workItem from="1461008123454" duration="3789000" />
-      <workItem from="1461177643423" duration="8743000" />
+      <workItem from="1461177643423" duration="9072000" />
     </task>
     <task id="LOCAL-00001" summary="Side menu (left):&#10;date &amp; time&#10;avatar &amp; welcome note&#10;menu">
       <created>1461010605913</created>
@@ -325,17 +329,24 @@
       <option name="project" value="LOCAL" />
       <updated>1461011264322</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Top left: shows current date and time now, clicking on it shows clock.&#10;&#10;Left sidebar: fixed avatar size and alignments.&#10;&#10;Middle section: added thumbnails for 6 subjects.&#10;&#10;Removed the rest of content that was not needed.">
+      <created>1461192173073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1461192173073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21889000" />
+    <option name="totallyTimeSpent" value="22218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16913319" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18864097" sideWeight="0.69739586" order="7" side_tool="false" content_ui="tabs" />
@@ -368,7 +379,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Side menu (left):&#10;date &amp; time&#10;avatar &amp; welcome note&#10;menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Side menu (left):&#10;date &amp; time&#10;avatar &amp; welcome note&#10;menu" />
+    <MESSAGE value="Top left: shows current date and time now, clicking on it shows clock.&#10;&#10;Left sidebar: fixed avatar size and alignments.&#10;&#10;Middle section: added thumbnails for 6 subjects.&#10;&#10;Removed the rest of content that was not needed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Top left: shows current date and time now, clicking on it shows clock.&#10;&#10;Left sidebar: fixed avatar size and alignments.&#10;&#10;Middle section: added thumbnails for 6 subjects.&#10;&#10;Removed the rest of content that was not needed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

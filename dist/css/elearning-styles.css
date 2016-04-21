@@ -1,0 +1,35 @@
+#science{
+    background-image: url("../../pages/science_thumbnail.jpg");
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
+}
+
+#maths{
+    background-image: url("../../pages/maths_thumbnail.png");
+    background-size: 425px 200px;
+    background-repeat: no-repeat;
+}
+
+#malti{
+    background-image: url("../../pages/malti_thumbnail.png");
+    background-size: 373px 174px;
+    background-repeat: no-repeat;
+}
+
+#english{
+    background-image: url("../../pages/english_thumbnail.jpg");
+    background-size: 373px 174px;
+    background-repeat: no-repeat;
+}
+
+#religion{
+    background-image: url("../../pages/religion_thumbnail.jpg");
+    background-size: 393px 177px;
+    background-repeat: no-repeat;
+}
+
+#socialStudies{
+    background-image: url("../../pages/socialStudies_thumbnail.jpg");
+    background-size: 380px 174px;
+    background-repeat: no-repeat;
+}

@@ -8,5 +8,10 @@
     <orderEntry type="library" name="respond" level="application" />
     <orderEntry type="library" name="jquery-1.11.3" level="application" />
     <orderEntry type="library" name="jquery.mobile-1.4.5" level="application" />
+    <orderEntry type="library" name="html5shiv" level="application" />
+    <orderEntry type="library" name="respond" level="application" />
+    <orderEntry type="library" name="jquery-1.11.3" level="application" />
+    <orderEntry type="library" name="jquery.mobile-1.4.5" level="application" />
+    <orderEntry type="library" name="elearning node_modules" level="project" />
   </component>
 </module>

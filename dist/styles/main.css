@@ -6914,7 +6914,8 @@ button.close {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ecf0f1;
+  background-image: url('../images/loginback.jpg');
+  background-size: cover;
   color: #666
 }
 

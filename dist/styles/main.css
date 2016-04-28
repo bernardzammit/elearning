@@ -7185,3 +7185,13 @@ button.close {
 html, body {
   overflow: hidden
 }
+
+.selected-year{
+  background-color: #008520;
+  border-color: #006e1d;
+}
+
+.selected-year:hover{
+  background-color: #008520;
+  border-color: #006e1d;
+}

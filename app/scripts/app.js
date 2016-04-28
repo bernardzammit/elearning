@@ -12,10 +12,11 @@ angular
   .module('yapp', [
     'ui.router',
     'ngAnimate',
+    'angular-svg-round-progressbar'
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.when('/dashboard', '/dashboard/overview');
+    $urlRouterProvider.when('/dashboard', '/dashboard/home1');
     $urlRouterProvider.otherwise('/login');
 
     $stateProvider
@@ -36,10 +37,11 @@ angular
         templateUrl: 'views/dashboard.html',
         controller: 'DashboardCtrl'
       })
-      .state('overview', {
-        url: '/overview',
+
+      .state('home1', {
+        url: '/home1',
         parent: 'dashboard',
-        templateUrl: 'views/dashboard/overview.html'
+        templateUrl: 'views/dashboard/home1.html'
       })
 
       .state('subjects', {
@@ -51,13 +53,15 @@ angular
       .state('year', {
         url: '/year',
         parent: 'dashboard',
-        templateUrl: 'views/dashboard/year.html'
+        templateUrl: 'views/dashboard/year.html',
+        controller: 'YearCtrl'
       })
 
       .state('achievements', {
         url: '/achievements',
         parent: 'dashboard',
-        templateUrl: 'views/dashboard/achievements.html'
+        templateUrl: 'views/dashboard/achievements.html',
+        controller: 'AchievementsCtrl'
       })
 
       .state('calendar', {
@@ -72,4 +76,17 @@ angular
         templateUrl: 'views/dashboard/settings.html'
       });
 
+  })
+
+  .service('sharedProperties', function () {
+    var selectedYear = 6;
+
+    return {
+      getYear: function () {
+        return selectedYear;
+      },
+      setYear: function(value) {
+        selectedYear = value;
+      }
+    };
   });

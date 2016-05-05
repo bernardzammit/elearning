@@ -5,10 +5,10 @@
     <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/achievements.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/dashboard.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/subjects.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/year.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/achievements.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/views/dashboard/home.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/home1.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/settings.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/subjects.html" charset="UTF-8" />

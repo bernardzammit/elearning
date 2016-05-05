@@ -1,17 +1,98 @@
 <div>
-    <a ui-sref="overview" class="pull-right btn btn-primary btn-outline btn-rounded">Back to Overview</a>
+    <a ui-sref="home1" class="pull-right btn btn-primary btn-outline btn-rounded"><span class="glyphicon-home"></span>Back to Home</a>
     <h2>Subjects <small>Click on subject to choose topics</small></h2>
-    <div class="panel-group">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
-                </h4>
-            </div>
-            <div id="collapse1" class="panel-collapse collapse">
-                <div class="panel-body">Panel Body</div>
-                <div class="panel-footer">Panel Footer</div>
-            </div>
+
+    <div class="jumbotron" style="background-color: transparent">
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <!--panel-->
+            <div class="panel panel-primary">
+                <div class="panel-heading" data-target="#collapseList2">
+                    <h3 class="panel-title">Maths</h3>
+                </div>
+                <div id="collapseList1" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'maths'}">
+                    <a href="" class="list-group-item" ng-click="loadPartial(topic.link)"> {{topic.title}}</a>
+                </div>
+            </div><!--/panel-->
         </div>
+
+        <div id="partialResults" ng-include="currentPartial">
+
+        </div>
+
+        <div ng-include src="'views/dashboard/calendar.html'"></div>
+
+        <div class="col-lg-4 col-md-4">
+            <!--panel-->
+            <div class="panel panel-danger">
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
+                    <h3 class="panel-title">English</h3>
+                </div>
+                <div id="collapseList2" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'english'}">
+                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+
+                </div>
+            </div><!--/panel-->
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+            <!--panel-->
+            <div class="panel panel-success">
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
+                    <h3 class="panel-title">Maltese</h3>
+                </div>
+                <div id="collapseList3" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'maltese'}">
+                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                </div>
+            </div><!--/panel-->
+
+        </div>
+
     </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <!--panel-->
+            <div class="panel panel-info">
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
+                    <h3 class="panel-title">Science</h3>
+                </div>
+                <div id="collapseList4" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'science'}">
+                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                </div>
+            </div><!--/panel-->
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+            <!--panel-->
+            <div class="panel panel-warning">
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
+                    <h3 class="panel-title">ICT</h3>
+                </div>
+                <div id="collapseList5" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'ict'}">
+                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                </div>
+            </div><!--/panel-->
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+            <!--panel-->
+            <div class="panel panel-default">
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
+                    <h3 class="panel-title">Geography</h3>
+                </div>
+                <div id="collapseList6" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'geography'}">
+                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                </div>
+            </div><!--/panel-->
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
 </div>

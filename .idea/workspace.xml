@@ -2,62 +2,296 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2873ff05-2ca7-44e1-ab47-54de1d1a7640" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/subjects.js" />
-      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\science-topics.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\science_quiz.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\amplaunch.html" afterPath="$PROJECT_DIR$/app/views/weather/amplaunch.html" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\meta.xml" afterPath="$PROJECT_DIR$/app/views/weather/meta.xml" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\5X1Ir2wZaTn_80_DX852_DY852_CX426_CY424.jpg" afterPath="$PROJECT_DIR$/app/views/weather/mobile/5X1Ir2wZaTn_80_DX852_DY852_CX426_CY424.jpg" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\Slide6pnImLTwwSX.jpg" afterPath="$PROJECT_DIR$/app/views/weather/mobile/Slide6pnImLTwwSX.jpg" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\app_store.png" afterPath="$PROJECT_DIR$/app/views/weather/mobile/app_store.png" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\data.gz" afterPath="$PROJECT_DIR$/app/views/weather/mobile/data.gz" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\data.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/data.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\fonts.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/fonts.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\linen_background.jpg" afterPath="$PROJECT_DIR$/app/views/weather/mobile/linen_background.jpg" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\masks.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/masks.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\mobile_icon.png" afterPath="$PROJECT_DIR$/app/views/weather/mobile/mobile_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\mobileinstall.html" afterPath="$PROJECT_DIR$/app/views/weather/mobile/mobileinstall.html" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\player.css" afterPath="$PROJECT_DIR$/app/views/weather/mobile/player.css" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\player_compiled.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/player_compiled.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\5amxrDUPF6P.gz" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/5amxrDUPF6P.gz" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\5amxrDUPF6P.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/5amxrDUPF6P.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\68le5UHUQOc.gz" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/68le5UHUQOc.gz" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\68le5UHUQOc.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/68le5UHUQOc.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\6H1QLtnMRxc.gz" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/6H1QLtnMRxc.gz" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\6H1QLtnMRxc.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/6H1QLtnMRxc.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\6Ulfan7DSOD.gz" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/6Ulfan7DSOD.gz" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\6Ulfan7DSOD.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/6Ulfan7DSOD.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\6VBtWm0NUBi.gz" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/6VBtWm0NUBi.gz" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\mobile\slides\6VBtWm0NUBi.js" afterPath="$PROJECT_DIR$/app/views/weather/mobile/slides/6VBtWm0NUBi.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story.html" afterPath="$PROJECT_DIR$/app/views/weather/story.html" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story.swf" afterPath="$PROJECT_DIR$/app/views/weather/story.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\5X1Ir2wZaTn_80_DX852_DY852.jpg" afterPath="$PROJECT_DIR$/app/views/weather/story_content/5X1Ir2wZaTn_80_DX852_DY852.jpg" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\FontFactory.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/FontFactory.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\Slide6pnImLTwwSX.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/Slide6pnImLTwwSX.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\blank.html" afterPath="$PROJECT_DIR$/app/views/weather/story_content/blank.html" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\data.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/data.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\fonts.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/fonts.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\fonts.xml" afterPath="$PROJECT_DIR$/app/views/weather/story_content/fonts.xml" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\frame.js" afterPath="$PROJECT_DIR$/app/views/weather/story_content/frame.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\frame.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/frame.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\frame.xml" afterPath="$PROJECT_DIR$/app/views/weather/story_content/frame.xml" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\hotspot_marker.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/hotspot_marker.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\slides\5amxrDUPF6P.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/slides/5amxrDUPF6P.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\slides\68le5UHUQOc.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/slides/68le5UHUQOc.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\slides\6H1QLtnMRxc.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/slides/6H1QLtnMRxc.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\slides\6Ulfan7DSOD.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/slides/6Ulfan7DSOD.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\slides\6VBtWm0NUBi.swf" afterPath="$PROJECT_DIR$/app/views/weather/story_content/slides/6VBtWm0NUBi.swf" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\story.js" afterPath="$PROJECT_DIR$/app/views/weather/story_content/story.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\thumbnail.jpg" afterPath="$PROJECT_DIR$/app/views/weather/story_content/thumbnail.jpg" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_content\user.js" afterPath="$PROJECT_DIR$/app/views/weather/story_content/user.js" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_html5.html" afterPath="$PROJECT_DIR$/app/views/weather/story_html5.html" />
-      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\assignment_story - Storyline output\story_unsupported.html" afterPath="$PROJECT_DIR$/app/views/weather/story_unsupported.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/achievements.html" afterPath="$PROJECT_DIR$/app/views/dashboard/achievements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/achievements.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/achievements.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/5VXOc1yVjE2_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/5VvhfAlhzUN_80_DX288_DY288.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5VvhfAlhzUN_80_DX288_DY288_CX144_CY144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5VvhfAlhzUN_80_DX288_DY288_CX144_CY144.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/5XRDGjVibUy.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/slides/5XRDGjVibUy.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/5XgKDG00Ljo_80_DX288_DY288.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5XgKDG00Ljo_80_DX288_DY288_CX144_CY144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5XgKDG00Ljo_80_DX288_DY288_CX144_CY144.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/5YdGx6jsDAV_80_DX288_DY288.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5YdGx6jsDAV_80_DX288_DY288_CX144_CY144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5YdGx6jsDAV_80_DX288_DY288_CX144_CY144.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5Z37yRhkbng_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5Z37yRhkbng_80_DX540_DY540_CX108_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5Z37yRhkbng_80_DX540_DY540_CX108_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5ZQrFdlxCAe_80_DX204_DY204.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5ZQrFdlxCAe_80_DX204_DY204_CX102_CY102.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5ZQrFdlxCAe_80_DX204_DY204_CX102_CY102.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/5Zhs7ft8DM2_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/5cMJVVjBkxa.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/slides/5cMJVVjBkxa.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/5cUUhJhJPLv_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5cUUhJhJPLv_80_DX540_DY540_CX78_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/5cUUhJhJPLv_80_DX540_DY540_CX78_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5ixzlNnfwKE_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5nc6YI9gXF2_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5nc6YI9gXF2_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5nc6YI9gXF2_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/5owWciF0mGR.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/slides/5owWciF0mGR.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/5rWyYxFMwm0_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5sIRqReOPwe_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5sIRqReOPwe_80_DX540_DY540_CX113_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5sIRqReOPwe_80_DX540_DY540_CX113_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/5sdE7hVpZNv.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/slides/5sdE7hVpZNv.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5vQp5YAkpWk_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5vQp5YAkpWk_80_DX540_DY540_CX169_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5vQp5YAkpWk_80_DX540_DY540_CX169_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/5xW2vgBxBvg_80_DX464_DY464.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5xW2vgBxBvg_80_DX464_DY464_CX110_CY232.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/5xW2vgBxBvg_80_DX464_DY464_CX110_CY232.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/5yFfqEAMsnd.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/slides/5yFfqEAMsnd.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/61Mc2hPZ8rA.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/slides/61Mc2hPZ8rA.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/62HGdqTHEa1_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/62HGdqTHEa1_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/62HGdqTHEa1_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/658l6uFU6GJ_80_DX208_DY208.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/658l6uFU6GJ_80_DX208_DY208_CX104_CY104.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/658l6uFU6GJ_80_DX208_DY208_CX104_CY104.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/67mHSjJAgLr.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/slides/67mHSjJAgLr.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/682Kr81niDz_80_DX72_DY72.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/682Kr81niDz_80_DX72_DY72_CX36_CY36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/682Kr81niDz_80_DX72_DY72_CX36_CY36.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/69QXkllqU3D_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/69QXkllqU3D_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/69QXkllqU3D_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/69ynHUmCwDz_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/69ynHUmCwDz_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/69ynHUmCwDz_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/6EEfjrWRKIC.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/slides/6EEfjrWRKIC.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6F8wi44kDNX_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6FM4ygyKQzb_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6GBNIJ3lFxu_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6Gn5swcLtkP_80_DX464_DY464.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6Gn5swcLtkP_80_DX464_DY464_CX145_CY232.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6Gn5swcLtkP_80_DX464_DY464_CX145_CY232.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6HT8O8U4h2d_80_DX396_DY396.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6HT8O8U4h2d_80_DX396_DY396_CX81_CY198.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6HT8O8U4h2d_80_DX396_DY396_CX81_CY198.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6IbQpVBD4ZB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6Idj4xnxtU0_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/6KwqOJOpAVJ.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/slides/6KwqOJOpAVJ.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6MXRzlCg7dB_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6MXRzlCg7dB_80_DX540_DY540_CX119_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6MXRzlCg7dB_80_DX540_DY540_CX119_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6NWxytz5KwJ.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/slides/6NWxytz5KwJ.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/6O6wQq6yDAC.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/slides/6O6wQq6yDAC.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6P8caZ2xklB_80_DX288_DY288.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6P8caZ2xklB_80_DX288_DY288_CX144_CY144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6P8caZ2xklB_80_DX288_DY288_CX144_CY144.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6PIA4lPusT0_80_DX380_DY380.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6PIA4lPusT0_80_DX380_DY380_CX120_CY190.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6PIA4lPusT0_80_DX380_DY380_CX120_CY190.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6QcpDcBG4TU.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/slides/6QcpDcBG4TU.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6Rwn5brbQ29_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6Rwn5brbQ29_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6Rwn5brbQ29_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6Tb78JxepxV_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6Tb78JxepxV_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6Tb78JxepxV_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6VUhLiI1k4K_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6VUhLiI1k4K_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6VUhLiI1k4K_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6WMX16NnPM8_80_DX176_DY176.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6WMX16NnPM8_80_DX176_DY176_CX88_CY88.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6WMX16NnPM8_80_DX176_DY176_CX88_CY88.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/6WwczjxFtgD.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/slides/6WwczjxFtgD.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6ZauJyn8O3U_80_DX224_DY224.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6ZauJyn8O3U_80_DX224_DY224_CX112_CY112.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6ZauJyn8O3U_80_DX224_DY224_CX112_CY112.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6ZqKrzz63Y2_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6axHZbl1dVe_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6axHZbl1dVe_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6axHZbl1dVe_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6bTJKbjGDXO_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6bqnIqzJwbX_80_DX220_DY220.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6bqnIqzJwbX_80_DX220_DY220_CX110_CY110.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6bqnIqzJwbX_80_DX220_DY220_CX110_CY110.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6fg6JnU6CPM_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6fg6JnU6CPM_80_DX540_DY540_CX86_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6fg6JnU6CPM_80_DX540_DY540_CX86_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6gdaiMRKP7q.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/slides/6gdaiMRKP7q.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6hAic78o6Kc_80_DX540_DY540.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6hAic78o6Kc_80_DX540_DY540_CX107_CY270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6hAic78o6Kc_80_DX540_DY540_CX107_CY270.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/6hnddnwwt17_80_DX256_DY256.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6hnddnwwt17_80_DX256_DY256_CX128_CY128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/6hnddnwwt17_80_DX256_DY256_CX128_CY128.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6jHAxNdYhEt_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6nmjZDOproX_80_DX396_DY396.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6nmjZDOproX_80_DX396_DY396_CX111_CY198.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/6nmjZDOproX_80_DX396_DY396_CX111_CY198.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/6nzSxxqxPEd.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/slides/6nzSxxqxPEd.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/6olZm3VhQEd_22050_48.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/6rPzwKojBbI_80_DX380_DY380.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6rPzwKojBbI_80_DX380_DY380_CX92_CY190.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/6rPzwKojBbI_80_DX380_DY380_CX92_CY190.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6rlcq1gehm4.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/slides/6rlcq1gehm4.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/FontFactory.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/FontFactory.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/FontFactory.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/Slide6GSlKaKBgXE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/Slide6GSlKaKBgXE.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/Slide6RnucFTSmVg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/Slide6RnucFTSmVg.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/Slide6ogxSBzYHtS.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/Slide6ogxSBzYHtS.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/external_files/Weather-instruments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/app_store.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/app_store.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/data.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/data.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/data.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/data.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/data.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/data.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/fonts.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/fonts.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/fonts.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/frame.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/frame.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/frame.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/linen_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/linen_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/mobile_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/mobile_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/url.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/5XRDGjVibUy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/5cMJVVjBkxa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/5owWciF0mGR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/5sdE7hVpZNv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/5yFfqEAMsnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/61Mc2hPZ8rA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/67mHSjJAgLr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/6EEfjrWRKIC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/6KwqOJOpAVJ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6NWxytz5KwJ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/6O6wQq6yDAC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6QcpDcBG4TU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/slides/6WwczjxFtgD.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6gdaiMRKP7q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/slides/6nzSxxqxPEd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/slides/6rlcq1gehm4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/amplaunch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/amplaunch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/blank.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/blank.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/fonts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/fonts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/fonts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/fonts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/fonts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/fonts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/story_content/frame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/frame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/frame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/mobile/masks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/masks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/masks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/forces/meta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/meta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/meta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/mobileinstall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/mobileinstall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/player.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/player.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/mobile/player_compiled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/mobile/player_compiled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/story.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/story.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_html5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_html5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_unsupported.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_unsupported.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dashboard/topic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/topic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/healthyeating/story_content/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/weatherwatch/story_content/user.js" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\meta.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\5X1Ir2wZaTn_80_DX852_DY852_CX426_CY424.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\Slide6pnImLTwwSX.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\data.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\fonts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\masks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\5amxrDUPF6P.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\5amxrDUPF6P.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\68le5UHUQOc.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\68le5UHUQOc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\6H1QLtnMRxc.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\6H1QLtnMRxc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\6Ulfan7DSOD.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\6Ulfan7DSOD.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\6VBtWm0NUBi.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\slides\6VBtWm0NUBi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\5X1Ir2wZaTn_80_DX852_DY852.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\FontFactory.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\Slide6pnImLTwwSX.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\data.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\fonts.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\fonts.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\frame.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\frame.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\frame.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\hotspot_marker.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\slides\5amxrDUPF6P.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\slides\68le5UHUQOc.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\slides\6H1QLtnMRxc.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\slides\6Ulfan7DSOD.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\slides\6VBtWm0NUBi.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\thumbnail.jpg" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\amplaunch.html" afterPath="$PROJECT_DIR$/app/views/forces/amplaunch.html" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\app_store.png" afterPath="$PROJECT_DIR$/app/views/forces/mobile/app_store.png" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\linen_background.jpg" afterPath="$PROJECT_DIR$/app/views/forces/mobile/linen_background.jpg" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\mobile_icon.png" afterPath="$PROJECT_DIR$/app/views/forces/mobile/mobile_icon.png" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\mobileinstall.html" afterPath="$PROJECT_DIR$/app/views/forces/mobile/mobileinstall.html" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\player.css" afterPath="$PROJECT_DIR$/app/views/forces/mobile/player.css" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\mobile\player_compiled.js" afterPath="$PROJECT_DIR$/app/views/forces/mobile/player_compiled.js" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story.html" afterPath="$PROJECT_DIR$/app/views/forces/story.html" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\blank.html" afterPath="$PROJECT_DIR$/app/views/forces/story_content/blank.html" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\story.js" afterPath="$PROJECT_DIR$/app/views/forces/story_content/story.js" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_content\user.js" afterPath="$PROJECT_DIR$/app/views/forces/story_content/user.js" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_html5.html" afterPath="$PROJECT_DIR$/app/views/forces/story_html5.html" />
+      <change type="MOVED" beforePath="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weather\story_unsupported.html" afterPath="$PROJECT_DIR$/app/views/forces/story_unsupported.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/subjects.html" afterPath="$PROJECT_DIR$/app/views/dashboard/subjects.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/subjects.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/subjects.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e451d65c-347c-47ee-88ea-2cfd52b538dd" name="Rejected commit: Default" comment="Subjects, topics (for science) + quiz (for weather watch)." />
@@ -83,66 +317,58 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="39" column="104" selection-start-line="39" selection-start-column="104" selection-end-line="39" selection-end-column="104" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subjects.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="subjects.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/subjects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.333333">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6486486">
+              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="achievements.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboard/achievements.html">
+      <file leaf-file-name="topic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.528301">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="achievements.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/achievements.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.148148">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboard/topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6415094">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.518851">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state vertical-scroll-proportion="40.296295">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="year.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/year.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state vertical-scroll-proportion="-7.296296">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -151,8 +377,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7196" column="1" selection-start-line="7196" selection-start-column="1" selection-end-line="7196" selection-end-column="1" />
+            <state vertical-scroll-proportion="-13.222222">
+              <caret line="7198" column="16" selection-start-line="7198" selection-start-column="16" selection-end-line="7198" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -161,8 +387,8 @@
       <file leaf-file-name="subjects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dashboard/subjects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3773584">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state vertical-scroll-proportion="-12.6603775">
+              <caret line="78" column="102" selection-start-line="78" selection-start-column="102" selection-end-line="78" selection-end-column="102" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -176,6 +402,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -206,19 +434,22 @@
         <option value="$PROJECT_DIR$/app/views/dashboard/overview.html" />
         <option value="$PROJECT_DIR$/app/views/science-topics.html" />
         <option value="$PROJECT_DIR$/dist/scripts/scripts.js" />
-        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/dashboard.js" />
         <option value="$PROJECT_DIR$/app/views/dashboard/year.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/year.js" />
         <option value="$PROJECT_DIR$/app/views/dashboard/home1.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dist/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/achievements.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/dashboard/achievements.html" />
+        <option value="$PROJECT_DIR$/app/views/weather/story_html5.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/dist/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/views/dashboard/topic.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/topic.js" />
         <option value="$PROJECT_DIR$/app/views/dashboard/subjects.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/subjects.js" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -240,10 +471,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-135" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -268,8 +499,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,6 +528,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,28 +606,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weather" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,6 +691,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,17 +717,18 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/bower.cmd" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views" />
+      <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\weatherwatch" />
       <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\bower_components" />
       <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\app\scripts\controllers" />
       <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views\dashboard" />
-      <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\dist\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\natasha nikolic\WebstormProjects\elearning\app\views" />
@@ -494,11 +736,14 @@
       <recent name="C:\Users\Bernard\WebstormProjects\elearning\dist" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/elearning/app/index.html">
       <method />
     </configuration>
     <configuration default="false" name="story.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/elearning/assignment_story - Storyline output/story.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/elearning/app/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -550,14 +795,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.story.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.story.html" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.story.html" />
       </list>
     </recent_temporary>
   </component>
@@ -579,34 +826,40 @@
       <option name="project" value="LOCAL" />
       <updated>1461838473004</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding subjects topics and achievments badges panel">
+      <created>1462438492741</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1462438492741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="21033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1928" y="-135" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23586309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34773445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2944882" sideWeight="0.29721814" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.251634" sideWeight="0.70278186" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14572865" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25980392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25974026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -626,15 +879,81 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Subjects, topics (for science) + quiz (for weather watch)." />
     <MESSAGE value="badges - change grade ready - removing and cleaning up project" />
-    <option name="LAST_COMMIT_MESSAGE" value="badges - change grade ready - removing and cleaning up project" />
+    <MESSAGE value="adding subjects topics and achievments badges panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding subjects topics and achievments badges panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/scripts/controllers/topic.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/subjects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7198" column="16" selection-start-line="7198" selection-start-column="16" selection-end-line="7198" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/subjects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -672,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/scripts/vendor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -818,20 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42728904">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.375">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/home1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9622642">
@@ -843,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,58 +1156,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/year.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27642277">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7196" column="1" selection-start-line="7196" selection-start-column="1" selection-end-line="7196" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="104" selection-start-line="39" selection-start-column="104" selection-end-line="39" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/achievements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/achievements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.528301">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -920,22 +1174,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36624774">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42728904">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/achievements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0489643">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/achievements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6642729">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41619587">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state vertical-scroll-proportion="-4.1698112">
+          <caret line="13" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5442561">
+          <caret line="17" column="100" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6415094">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.148148">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="40.296295">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/year.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.296296">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.222222">
+          <caret line="7198" column="16" selection-start-line="7198" selection-start-column="16" selection-end-line="7198" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/subjects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3773584">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state vertical-scroll-proportion="-12.6603775">
+          <caret line="78" column="102" selection-start-line="78" selection-start-column="102" selection-end-line="78" selection-end-column="102" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -944,16 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/subjects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.333333">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.518851">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6486486">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
           <folding />
         </state>
       </provider>

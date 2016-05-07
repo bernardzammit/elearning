@@ -51,10 +51,25 @@ angular
         controller: 'SubjectsCtrl'
       })
 
-      .state('topics', {
-        url: '/topics',
+      .state('forces', {
+        url: '/forces',
         parent: 'dashboard',
-        templateUrl: 'views/weather/story_html5.html'
+        templateUrl: 'views/dashboard/topic.html',
+        controller: 'TopicCtrl'
+      })
+
+      .state('weatherEquipment', {
+        url: '/weather',
+        parent: 'dashboard',
+        templateUrl: 'views/dashboard/topic.html',
+        controller: 'TopicCtrl'
+      })
+
+      .state('healthyDiets', {
+        url: '/healthydiets',
+        parent: 'dashboard',
+        templateUrl: 'views/dashboard/topic.html',
+        controller: 'TopicCtrl'
       })
 
       .state('year', {

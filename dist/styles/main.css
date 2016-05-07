@@ -7195,3 +7195,14 @@ html, body {
   background-color: #008520;
   border-color: #006e1d;
 }
+
+.topic-container{
+  width: 100%;
+  height: 250px;
+}
+.iframe-class {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #3c8eff;
+  overflow: auto;
+}

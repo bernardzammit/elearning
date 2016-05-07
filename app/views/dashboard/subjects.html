@@ -11,17 +11,11 @@
                 <div class="panel-heading" data-target="#collapseList2">
                     <h3 class="panel-title">Maths</h3>
                 </div>
-                <div id="collapseList1" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'maths'}">
-                    <a href="" class="list-group-item" ng-click="loadPartial(topic.link)"> {{topic.title}}</a>
+                <div id="collapseList1" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'maths'}">
+                    <a href="" class="list-group-item" ng-click="loadPartial(topic.title)"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
         </div>
-
-        <div id="partialResults" ng-include="currentPartial">
-
-        </div>
-
-        <div ng-include src="'views/dashboard/calendar.html'"></div>
 
         <div class="col-lg-4 col-md-4">
             <!--panel-->
@@ -29,8 +23,8 @@
                 <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
                     <h3 class="panel-title">English</h3>
                 </div>
-                <div id="collapseList2" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'english'}">
-                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                <div id="collapseList2" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'english'}">
+                    <a href="" class="list-group-item"> {{topic.title}}</a>
 
                 </div>
             </div><!--/panel-->
@@ -42,8 +36,8 @@
                 <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
                     <h3 class="panel-title">Maltese</h3>
                 </div>
-                <div id="collapseList3" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'maltese'}">
-                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                <div id="collapseList3" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'maltese'}">
+                    <a href="" class="list-group-item"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
 
@@ -58,8 +52,8 @@
                 <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
                     <h3 class="panel-title">Science</h3>
                 </div>
-                <div id="collapseList4" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'science'}">
-                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                <div id="collapseList4" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'science'}">
+                    <a href="" class="list-group-item" ng-click="loadPartial(topic.title)"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
         </div>
@@ -70,8 +64,8 @@
                 <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
                     <h3 class="panel-title">ICT</h3>
                 </div>
-                <div id="collapseList5" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'ict'}">
-                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                <div id="collapseList5" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'ict'}">
+                    <a href="" class="list-group-item"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
         </div>
@@ -82,8 +76,8 @@
                 <div class="panel-heading" data-toggle="collapse" data-target="#collapseList2">
                     <h3 class="panel-title">Geography</h3>
                 </div>
-                <div id="collapseList6" class="list-group collapse in" ng-repeat="topic in topics | filter: {subject:'geography'}">
-                    <a href={{topic.link}} class="list-group-item"> {{topic.title}}</a>
+                <div id="collapseList6" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'geography'}">
+                    <a href="" class="list-group-item"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
 

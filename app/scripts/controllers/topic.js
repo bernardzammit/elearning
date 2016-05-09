@@ -10,13 +10,9 @@ angular.module('yapp')
       $scope.address = "views/weatherwatch/story.html";
     }
     else if ($state.current.name == 'healthyDiets'){
-      $scope.topicName = "Helathy Diets";
+      $scope.topicName = "Healthy Diets";
       $scope.address = "views/healthyeating/story.html";
     }
-
-
-
-
 
 
   }]);

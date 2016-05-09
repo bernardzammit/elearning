@@ -12,7 +12,8 @@ angular
   .module('yapp', [
     'ui.router',
     'ngAnimate',
-    'angular-svg-round-progressbar'
+    'angular-svg-round-progressbar',
+    'ngMaterial'
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 
@@ -83,7 +84,7 @@ angular
         url: '/achievements',
         parent: 'dashboard',
         templateUrl: 'views/dashboard/achievements.html',
-        controller: 'AchievementsCtrl'
+        controller: 'SubjectsCtrl'
       })
 
       .state('calendar', {
@@ -100,56 +101,14 @@ angular
 
   })
 
-  . directive('tabs', function() {
-    return {
-      restrict: 'E',
-      transclude: true,
-      scope: {},
-      controller: [ "$scope", function($scope) {
-        var panes = $scope.panes = [];
-
-        $scope.select = function(pane) {
-          angular.forEach(panes, function(pane) {
-            pane.selected = false;
-          });
-          pane.selected = true;
-        }
-
-        this.addPane = function(pane) {
-          if (panes.length == 0) $scope.select(pane);
-          panes.push(pane);
-        }
-      }],
-      template:
-      '<div class="tabbable">' +
-      '<ul class="nav nav-tabs">' +
-      '<li ng-repeat="pane in panes" ng-class="{active:pane.selected}">'+
-      '<a href="" ng-click="select(pane)">{{pane.title}}</a>' +
-      '</li>' +
-      '</ul>' +
-      '<div class="tab-content" ng-transclude></div>' +
-      '</div>',
-      replace: true
-    };
-  }).
-  directive('pane', function() {
-    return {
-      require: '^tabs',
-      restrict: 'E',
-      transclude: true,
-      scope: { title: '@' },
-      link: function(scope, element, attrs, tabsCtrl) {
-        tabsCtrl.addPane(scope);
-      },
-      template:
-      '<div class="tab-pane" ng-class="{active: selected}" ng-transclude>' +
-      '</div>',
-      replace: true
-    };
-  })
-
   .service('sharedProperties', function () {
     var selectedYear = 6;
+    var mathsBadgeProgress = 12;
+    var englishBadgeProgress = 50;
+    var malteseBadgeProgress = 75;
+    var scienceBadgeProgress = 25;
+    var ictBadgeProgress = 60;
+    var geographyBadgeProgress = 100;
 
     return {
       getYear: function () {
@@ -157,6 +116,49 @@ angular
       },
       setYear: function(value) {
         selectedYear = value;
+      },
+
+      getMathsProgress: function() {
+        return mathsBadgeProgress;
+      },
+      setMathsProgress: function(value) {
+        mathsBadgeProgress = value;
+      },
+
+      getEnglishProgress: function() {
+        return englishBadgeProgress;
+      },
+      setEnglishProgress: function(value) {
+        englishBadgeProgress = value;
+      },
+
+      getMalteseProgress: function() {
+        return malteseBadgeProgress;
+      },
+      setMalteseProgress: function(value) {
+        malteseBadgeProgress = value;
+      },
+
+      getScienceProgress: function() {
+        return scienceBadgeProgress;
+      },
+      setScienceProgress: function(value) {
+        scienceBadgeProgress = value;
+      },
+
+      getIctProgress: function() {
+        return ictBadgeProgress;
+      },
+      setIctProgress: function(value) {
+        ictBadgeProgress = value;
+      },
+
+      getGeographyProgress: function() {
+        return geographyBadgeProgress;
+      },
+      setGeographyProgress: function(value) {
+        geographyBadgeProgress = value;
       }
+
     };
   });

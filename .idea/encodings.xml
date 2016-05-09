@@ -10,6 +10,7 @@
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/year.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/achievements.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/dashboard/calendar.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/home1.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/settings.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/dashboard/subjects.html" charset="UTF-8" />

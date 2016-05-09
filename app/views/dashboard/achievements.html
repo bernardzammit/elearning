@@ -1,10 +1,42 @@
 <div>
-    <a ui-sref="overview" class="pull-right btn btn-primary btn-outline btn-rounded">Back to Dashboard</a>
+    <a ui-sref="home1" class="pull-right btn btn-primary btn-outline btn-rounded">Back to Home</a>
     <h2>Your Achievements</h2>
     <div class="jumbotron">
         <div class="container">
             <h1>Points</h1>
 
+            <div class="rating">
+                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+            </div>
+
+            <div class="alert panel-primary">
+                <strong>{{mathsPoints}}</strong> Maths
+            </div>
+
+
+            <div class="alert alert-danger">
+                <strong>{{englishPoints}}</strong> English
+            </div>
+
+
+            <div class="alert alert-success">
+                <strong>{{maltesePoints}}</strong> Maltese
+            </div>
+
+
+            <div class="alert alert-info">
+                <strong>{{ictPoints}}</strong> ICT
+            </div>
+
+
+            <div class="alert alert-warning">
+                <strong>{{sciencePoints}}</strong> Science
+            </div>
+
+
+            <div class="alert panel-default">
+                <strong>{{geographyPoints}}</strong> Geography
+            </div>
 
         </div>
     </div>
@@ -17,7 +49,7 @@
                 <div class="col-lg-2 col-md-2">
                     <p style="text-align: center">Maths</p>
                     <div round-progress max="100" current="mathsBadgeProgress" color="#3ca2e0" bgcolor="#eaeaea" radius="100" stroke="20" semi="false" rounded="true" clockwise="true"
-                         responsive="true" duration="800" animation="easeInOutQuart"style="background-image: url('images/maths.png'); background-size: contain"></div>
+                         responsive="true" duration="800" animation="easeInOutQuart" style="background-image: url('images/maths.png'); background-size: contain"></div>
                     <p style="text-align: center">{{mathsBadgeProgress}}%</p>
                 </div>
 
@@ -66,14 +98,21 @@
     <div class="jumbotron">
         <div class="container">
             <h1>Rewards</h1>
-            <tabs>
-                <pane title="Maths">
-                    <div>This is the content of the first tab.</div>
-                </pane>
-                <pane title="English">
-                    <div>This is the content of the second tab.</div>
-                </pane>
-            </tabs>
+            <div class="col-lg-12 col-md-12">
+                <div ng-repeat="topic in getTopics() | filter: {reward:'yes'}">
+                    <div class="col-lg-2">
+                        <div class="media">
+                            <div class="pull-left">
+                                <img class="lv-img-sm" data-ng-src="images/{{topic.subject}}.png" alt="">
+                            </div>
+                            <div class="media-body">
+                                <div class="lv-title ng-binding">{{topic.title}}</div>
+                                <small class="lv-small ng-binding">{{topic.subject}}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

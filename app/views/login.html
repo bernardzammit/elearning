@@ -1,28 +1,31 @@
-<!--
-Inspired by http://dribbble.com/shots/917819-iPad-Calendar-Login?list=shots&sort=views&timeframe=ever&offset=461
--->
 <div class="login-page">
-	<div class="row">
-		<div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 login-form">
-			<form role="form" ng-submit="submit()">
-				<div class="form-content">
+    <div class="row">
+        <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 login-form">
+            <form role="form" name="loginForm" ng-submit="login()" ng-controller="LoginCtrl">
+                <div class="form-content">
                     <img src="images/flat-avatar.png" class="user-avatar" />
-                    <h1>Ani Theme <small>Free Edition</small></h1>
+                    <h1>E-Learning Platform </br><small>Primary Edition</small></h1>
 
-					<div class="form-group">
-						<input type="text" class="form-control input-underline input-lg" id="" placeholder="Email">
-					</div>
+                    <div class="form-group" ng-class="{'has-error' : loginForm.email.$invalid && loginForm.email.$dirty, 'has-success' : loginForm.email.$valid && loginForm.email.$dirty}" >
+                        <input type="email" name="email" class="form-control input-underline input-lg" id="" placeholder="Email" ng-model="email" required>
+                    </div>
 
-					<div class="form-group">
-						<input type="password" class="form-control input-underline input-lg" id="" placeholder="Password">
-					</div>
+                    <div class="form-group" ng-class="{'has-error' : loginForm.password.$invalid && loginForm.password.$dirty, 'has-success' : loginForm.password.$valid && loginForm.password.$dirty}">
+                        <input type="password" name="password" class="form-control input-underline input-lg" id="" placeholder="Password" ng-model="password" required>
+                    </div>
 
-                    <button type="submit" class="btn btn-white btn-outline btn-lg btn-rounded">Login</button>
-				</div>
+                    <button type="submit" class="btn btn-white btn-outline btn-lg btn-rounded" ng-disabled="loginForm.$invalid" ng-click="submit()">Login</button>
 
-			</form>
+                    <div>
+                        <br>
+                        <span class="help-inline" ng-show="invalidLogin" style=" color: red;"><b>Wrong email or password!</b></span>
+                    </div>
 
-		</div>
-	</div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
 
 </div>

@@ -87,12 +87,6 @@ angular
         controller: 'SubjectsCtrl'
       })
 
-      .state('calendar', {
-        url: '/calendar',
-        parent: 'dashboard',
-        templateUrl: 'views/dashboard/calendar.html'
-      })
-
       .state('settings', {
         url: '/settings',
         parent: 'dashboard',

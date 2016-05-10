@@ -7,14 +7,18 @@
  * # MainCtrl
  * Controller of yapp
  */
+
 angular.module('yapp')
   .controller('LoginCtrl', function($scope, $location) {
 
+    $scope.invalidLogin = false;
     $scope.submit = function() {
 
-      $location.path('/dashboard');
-
-      return false;
+      if($scope.email == 'andy@gmail.com' && $scope.password == 'andystudent'){
+        $location.path('/dashboard');
+        return true;
+      } else {
+        $scope.invalidLogin = true;
+      }
     }
-
   });

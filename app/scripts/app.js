@@ -13,7 +13,8 @@ angular
     'ui.router',
     'ngAnimate',
     'angular-svg-round-progressbar',
-    'ngMaterial'
+    'ngMaterial',
+    '500tech.simple-calendar'
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 

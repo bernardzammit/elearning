@@ -25,6 +25,8 @@ angular.module('yapp')
     $scope.ictPoints = 40;
     $scope.geographyPoints = 100;
 
+    $scope.playerScore = sharedProperties.getPlayerScore();
+
     $scope.grade4Topics = [
       { subject : 'maths', title: 'Odd and even numbers'},
       { subject : 'maths', title: 'Sequences'},

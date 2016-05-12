@@ -85,17 +85,12 @@ angular
         parent: 'dashboard',
         templateUrl: 'views/dashboard/achievements.html',
         controller: 'SubjectsCtrl'
-      })
-
-      .state('settings', {
-        url: '/settings',
-        parent: 'dashboard',
-        templateUrl: 'views/dashboard/settings.html'
       });
 
   })
 
   .service('sharedProperties', function () {
+    var playerScore = 0;
     var selectedYear = 6;
     var mathsBadgeProgress = 12;
     var englishBadgeProgress = 50;
@@ -105,11 +100,19 @@ angular
     var geographyBadgeProgress = 100;
 
     return {
+
       getYear: function () {
         return selectedYear;
       },
       setYear: function(value) {
         selectedYear = value;
+      },
+
+      getPlayerScore: function () {
+        return playerScore;
+      },
+      setPlayerScore: function(value) {
+        playerScore = playerScore + value;
       },
 
       getMathsProgress: function() {

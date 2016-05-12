@@ -9,7 +9,7 @@
  */
 
 angular.module('yapp')
-  .controller('LoginCtrl', function($scope, $location) {
+  .controller('LoginCtrl', ['$scope', '$location', function($scope, $location) {
 
     $scope.invalidLogin = false;
     $scope.submit = function() {
@@ -21,4 +21,4 @@ angular.module('yapp')
         $scope.invalidLogin = true;
       }
     }
-  });
+  }]);

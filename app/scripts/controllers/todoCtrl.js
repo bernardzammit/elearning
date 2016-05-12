@@ -1,7 +1,6 @@
 /**
- * Created by Bernard on 10/05/2016.
+ * Created by USER on 12/05/2016.
  */
-
 angular.module('yapp').controller('TodoCtrl', function($scope) {
   $scope.todos = [
     {task: 'Finish mathematics homework', done: false},
@@ -26,3 +25,4 @@ Array.prototype.remove = function(from, to) {
   this.length = from < 0 ? this.length + from : from;
   return this.push.apply(this, rest);
 };
+

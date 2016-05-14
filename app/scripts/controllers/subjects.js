@@ -106,7 +106,7 @@ angular.module('yapp')
       if (link == 'Forces')
       {
         //jew minn story line nghaddu listess points jew inehhu l value tal points jidher jew nippruvaw ingibu dak il value
-        $scope.sciencePoints = sharedProperties.setScienceScore(100);
+        $scope.sciencePoints = sharedProperties.setScienceScore(60);
         $scope.scienceBadgeProgress = sharedProperties.setScienceProgress(33);
         //add reward
         for (var i=0; i < $scope.grade6Topics.length; i++){
@@ -125,7 +125,7 @@ angular.module('yapp')
       }
       else if (link === 'Healthy Diets')
       {
-        $scope.sciencePoints = sharedProperties.setScienceScore(75);
+        $scope.sciencePoints = sharedProperties.setScienceScore(70);
         $scope.scienceBadgeProgress = sharedProperties.setScienceProgress(34);
         $state.go('healthyDiets');
       }

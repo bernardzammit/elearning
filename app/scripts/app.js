@@ -43,7 +43,8 @@ angular
       .state('home1', {
         url: '/home1',
         parent: 'dashboard',
-        templateUrl: 'views/dashboard/home1.html'
+        templateUrl: 'views/dashboard/home1.html',
+        controller: 'TodoCtrl'
       })
 
       .state('subjects', {

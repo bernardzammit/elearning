@@ -90,12 +90,12 @@ angular
   })
 
   .service('sharedProperties', function () {
-    var playerScore = 0;
+    var scienceScore = 0;
     var selectedYear = 6;
     var mathsBadgeProgress = 12;
     var englishBadgeProgress = 50;
     var malteseBadgeProgress = 75;
-    var scienceBadgeProgress = 25;
+    var scienceBadgeProgress = 0;
     var ictBadgeProgress = 60;
     var geographyBadgeProgress = 100;
 
@@ -108,11 +108,11 @@ angular
         selectedYear = value;
       },
 
-      getPlayerScore: function () {
-        return playerScore;
+      getScienceScore: function () {
+        return scienceScore;
       },
-      setPlayerScore: function(value) {
-        playerScore = playerScore + value;
+      setScienceScore: function(value) {
+        scienceScore = scienceScore + value;
       },
 
       getMathsProgress: function() {
@@ -140,7 +140,7 @@ angular
         return scienceBadgeProgress;
       },
       setScienceProgress: function(value) {
-        scienceBadgeProgress = value;
+        scienceBadgeProgress = value + scienceBadgeProgress;
       },
 
       getIctProgress: function() {

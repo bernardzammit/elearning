@@ -3,39 +3,81 @@
     <h2>Your Achievements</h2>
     <div class="jumbotron">
         <div class="container">
-            <h1>Points</h1>
+            <h1>Points {{playerScore}}</h1>
 
-            <div class="rating">
-                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4">
+                    <!--panel-->
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Maths</h3>
+                        </div>
+                        <div class="list-group collapse in">
+                            <p class="text-center">{{mathsPoints}}</p>
+                        </div>
+                    </div><!--/panel-->
+                </div>
 
-            <div class="alert panel-primary">
-                <strong>{{mathsPoints}}</strong> Maths
-            </div>
+                <div class="col-lg-2 col-md-4">
+                    <!--panel-->
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">English</h3>
+                        </div>
+                        <div class="list-group collapse in">
+                            <p class="text-center">{{englishPoints}}</p>
+                        </div>
+                    </div><!--/panel-->
+                </div>
 
+                <div class="col-lg-2 col-md-4">
+                    <!--panel-->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Maltese</h3>
+                        </div>
+                        <div class="list-group collapse in">
+                            <p class="text-center">{{maltesePoints}}</p>
+                        </div>
+                    </div><!--/panel-->
+                </div>
 
-            <div class="alert alert-danger">
-                <strong>{{englishPoints}}</strong> English
-            </div>
+                <div class="col-lg-2 col-md-4">
+                    <!--panel-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Science</h3>
+                        </div>
+                        <div class="list-group collapse in">
+                            <p class="text-center">{{sciencePoints}}</p>
+                        </div>
+                    </div><!--/panel-->
+                </div>
 
+                <div class="col-lg-2 col-md-4">
+                    <!--panel-->
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">ICT</h3>
+                        </div>
+                        <div class="list-group collapse in">
+                            <p class="text-center">{{ictPoints}}</p>
+                        </div>
+                    </div><!--/panel-->
+                </div>
 
-            <div class="alert alert-success">
-                <strong>{{maltesePoints}}</strong> Maltese
-            </div>
+                <div class="col-lg-2 col-md-4">
+                    <!--panel-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Geography</h3>
+                        </div>
+                        <div class="list-group collapse in">
+                            <p class="text-center">{{geographyPoints}}</p>
+                        </div>
+                    </div><!--/panel-->
+                </div>
 
-
-            <div class="alert alert-info">
-                <strong>{{ictPoints}}</strong> ICT
-            </div>
-
-
-            <div class="alert alert-warning">
-                <strong>{{sciencePoints}}</strong> Science
-            </div>
-
-
-            <div class="alert panel-default">
-                <strong>{{geographyPoints}}</strong> Geography
             </div>
 
         </div>

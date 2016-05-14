@@ -87,31 +87,34 @@ angular
         parent: 'dashboard',
         templateUrl: 'views/dashboard/achievements.html',
         controller: 'SubjectsCtrl'
-      })
-
-      .state('settings', {
-        url: '/settings',
-        parent: 'dashboard',
-        templateUrl: 'views/dashboard/settings.html'
       });
 
   })
 
   .service('sharedProperties', function () {
+    var scienceScore = 0;
     var selectedYear = 6;
     var mathsBadgeProgress = 12;
     var englishBadgeProgress = 50;
     var malteseBadgeProgress = 75;
-    var scienceBadgeProgress = 25;
+    var scienceBadgeProgress = 0;
     var ictBadgeProgress = 60;
     var geographyBadgeProgress = 100;
 
     return {
+
       getYear: function () {
         return selectedYear;
       },
       setYear: function(value) {
         selectedYear = value;
+      },
+
+      getScienceScore: function () {
+        return scienceScore;
+      },
+      setScienceScore: function(value) {
+        scienceScore = scienceScore + value;
       },
 
       getMathsProgress: function() {
@@ -139,7 +142,7 @@ angular
         return scienceBadgeProgress;
       },
       setScienceProgress: function(value) {
-        scienceBadgeProgress = value;
+        scienceBadgeProgress = value + scienceBadgeProgress;
       },
 
       getIctProgress: function() {

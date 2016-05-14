@@ -1,3 +1,4 @@
+var playerScore;
 function ExecuteScript(strId)
 {
   switch (strId)
@@ -11,7 +12,8 @@ function ExecuteScript(strId)
 function Script1()
 {
   var player = GetPlayer();
-  var playerScore = player.GetVar("myVariable");
-alert("Results: " + player.GetVar("myVariable"));
+  playerScore = player.GetVar("myVariable");
+  document.getElementById("demo").innerHTML = "allllllaaa";
+  alert("Results: " + player.GetVar("myVariable"));
 }
 

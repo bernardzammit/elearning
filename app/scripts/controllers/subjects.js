@@ -21,7 +21,7 @@ angular.module('yapp')
     $scope.mathsPoints = 10;
     $scope.englishPoints = 20;
     $scope.maltesePoints = 15;
-    $scope.sciencePoints = 20;
+    $scope.sciencePoints = sharedProperties.getScienceScore();
     $scope.ictPoints = 40;
     $scope.geographyPoints = 100;
 
@@ -105,14 +105,28 @@ angular.module('yapp')
     $scope.loadPartial = function(link) {
       if (link == 'Forces')
       {
+        //jew minn story line nghaddu listess points jew inehhu l value tal points jidher jew nippruvaw ingibu dak il value
+        $scope.sciencePoints = sharedProperties.setScienceScore(100);
+        $scope.scienceBadgeProgress = sharedProperties.setScienceProgress(33);
+        //add reward
+        for (var i=0; i < $scope.grade6Topics.length; i++){
+          if ($scope.grade6Topics[i].title === "Forces"){
+            alert($scope.grade6Topics[i].reward = 'yes');
+          }
+        }
+
         $state.go('forces');
       }
       else if (link === 'Weather Equipment')
       {
+        $scope.sciencePoints = sharedProperties.setScienceScore(80);
+        $scope.scienceBadgeProgress = sharedProperties.setScienceProgress(33);
         $state.go('weatherEquipment');
       }
       else if (link === 'Healthy Diets')
       {
+        $scope.sciencePoints = sharedProperties.setScienceScore(75);
+        $scope.scienceBadgeProgress = sharedProperties.setScienceProgress(34);
         $state.go('healthyDiets');
       }
 

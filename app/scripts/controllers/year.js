@@ -8,7 +8,7 @@
  * Controller of yapp
  */
 angular.module('yapp')
-  .controller('YearCtrl', ['$scope', 'sharedProperties', function($scope, sharedProperties) {
+  .controller('YearCtrl', ['$scope', '$interval', 'sharedProperties', function($scope, $interval,sharedProperties) {
 
     $scope.selectedYear = sharedProperties.getYear();
 

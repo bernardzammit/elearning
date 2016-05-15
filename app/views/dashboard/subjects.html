@@ -12,7 +12,7 @@
                     <h3 class="panel-title">Maths</h3>
                 </div>
                 <div id="collapseList1" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'maths'}">
-                    <a href="" class="list-group-item" ng-click="loadPartial(topic.title)"> {{topic.title}}</a>
+                    <a href="" class="list-group-item" ng-click="loadPartial(topic.title, topic.reward)"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
         </div>
@@ -53,7 +53,7 @@
                     <h3 class="panel-title">Science</h3>
                 </div>
                 <div id="collapseList4" class="list-group collapse in" ng-repeat="topic in getTopics() | filter: {subject:'science'}">
-                    <a href="" class="list-group-item" ng-click="loadPartial(topic.title)"> {{topic.title}}</a>
+                    <a href="" class="list-group-item" ng-click="loadPartial(topic.title, topic.reward)"> {{topic.title}}</a>
                 </div>
             </div><!--/panel-->
         </div>

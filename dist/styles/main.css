@@ -7464,6 +7464,23 @@ h3.timeline-title {
   font-size: 13px;
 }
 
+/* custom css */
+i.fa {
+  cursor: pointer;
+}
+
+.completed-true {
+  text-decoration: line-through;
+  opacity: .3;
+}
+
+#jumbatron-home{
+  background: transparent;
+}
+.current-month{
+  background: #3ca2e0;
+}
+
 h4 { font-family: 'Luckiest Guy', cursive; font-size: 250%; }
 
 

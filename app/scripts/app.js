@@ -13,7 +13,8 @@ angular
     'ui.router',
     'ngAnimate',
     'angular-svg-round-progressbar',
-    'ngMaterial'
+    'ngMaterial',
+    '500tech.simple-calendar'
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 
@@ -42,7 +43,8 @@ angular
       .state('home1', {
         url: '/home1',
         parent: 'dashboard',
-        templateUrl: 'views/dashboard/home1.html'
+        templateUrl: 'views/dashboard/home1.html',
+        controller: 'TodoCtrl'
       })
 
       .state('subjects', {

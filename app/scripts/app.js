@@ -14,7 +14,7 @@ angular
     'ngAnimate',
     'angular-svg-round-progressbar',
     'ngMaterial',
-    '500tech.simple-calendar'
+    '500tech.simple-calendar',
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 
@@ -101,6 +101,28 @@ angular
     var ictBadgeProgress = 60;
     var geographyBadgeProgress = 100;
 
+    var grade6Topics = [
+      { subject : 'maths', title: 'Fractions', reward: 'no'},
+      { subject : 'maths', title: 'Perimeter and area', reward: 'no'},
+      { subject : 'maths', title: 'Division', reward: 'no'},
+      { subject : 'english', title: 'Essay Writing', reward: 'yes'},
+      { subject : 'english', title: 'Past Tense', reward: 'no'},
+      { subject : 'english', title: 'Dialogue', reward: 'no'},
+      { subject : 'maltese', title: 'Comprehension', reward: 'yes'},
+      { subject : 'maltese', title: 'Building Sentences', reward: 'yes'},
+      { subject : 'maltese', title: 'Giving Directions', reward: 'no'},
+      { subject : 'science', title: 'Forces', reward: 'no'},
+      { subject : 'science', title: 'Weather Equipment', reward: 'no'},
+      { subject : 'science', title: 'Healthy Diets', reward: 'no'},
+      { subject : 'ict', title: 'Internet Safety', reward: 'yes'},
+      { subject : 'ict', title: 'Programming with Logo', reward: 'no'},
+      { subject : 'ict', title: 'Using Microsoft Word', reward: 'no'},
+      { subject : 'geography', title: 'Farming', reward: 'yes'},
+      { subject : 'geography', title: 'Reuse, Reduce, Recycle', reward: 'yes'},
+      { subject : 'geography', title: 'Mediterranean Islands', reward: 'yes'}
+
+    ];
+
     return {
 
       getYear: function () {
@@ -157,6 +179,18 @@ angular
       },
       setGeographyProgress: function(value) {
         geographyBadgeProgress = value;
+      },
+
+      getGrade6Topics: function() {
+        return grade6Topics;
+      },
+      setGrade6TopicsReward: function(title, reward){
+        for (var i=0; i < grade6Topics.length; i++){
+          if (grade6Topics[i].title === title){
+            grade6Topics[i].reward = reward;
+            break;
+          }
+        }
       }
 
     };
